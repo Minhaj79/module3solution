@@ -1,0 +1,43 @@
+*{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+}
+h2{
+    margin: 20px 0 40px 0px;
+}
+h3{
+    margin-bottom: 30px;
+}
+.row{
+    margin:0px 20px;
+}
+#navbarNav{
+    background-color:darkblue;
+    text-align: center;
+    width: 100%;
+}
+li{
+    border: 2px solid yellow;
+    border-style: inset;
+}
+hr{
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray
+}
+/*tells us which page we are currently on*/
+a:active{
+    background-color: yellowgreen;
+}
+/*hovering effect for the anchor tag*/
+a:hover{
+    background-color: thistle;
+}
+/*background color to distinguish the grid system*/
+div.col-sm-12{
+    background-color:lavender;
+}
