@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Linking CSS before my custom styles.css-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+
+    <!--My custome styles.css for better visualization-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Food LLC</title>
+</head>
+<body>
+
+    <!--navigation bar containing the "navbar-brand"-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+        <!--company name(Food,LLC) within anchor tag-->
+        <a class="navbar-brand" href="index.html">Food, LLC</a>
+
+        <!--Toggling the navbar as button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon d-lg-none d-md-none"></span>
+        </button>
+
+        <!--Collapsible navbar with three bars in right side of the page and it is not visible to medium and large devices-->
+        <div class="collapse navbar-collapse d-lg-none d-md-none " id="navbarNav">
+
+            <!--unordered list is not shown in the navigation bar when the screen size is medium or large-->
+          <ul class="navbar-nav d-lg-none d-md-none">
+            <li class="nav-item active">
+              <a class="nav-link d-lg-none d-md-none active" href="#chick">Chicken<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-lg-none d-md-none" href="#beef">Beef</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link d-lg-none d-md-none" href="#shushi">Shushi</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <!--Header(Our Menu) is centered with a boostrap class(text-center)-->
+      <h2 class="text-center">Our Menu</h2>
+
+      <!--div containing "container-fluid" and "row" class for responsive grid.Here it's 100% wider(col-sm-size-12) for mobile version-->
+      <div class="container-fluid"></div>
+      <div class="row">
+
+          <!--Stacked as a single grid-->
+          <div class="col-sm-12">
+            <h3 class="text-center" id="chick">Chicken</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repellendus fugit. Facilis, quasi omnis blanditiis aut provident ducimus odio doloribus repudiandae facere recusandae neque commodi earum suscipit aliquid quos error.
+            Officia consequuntur, amet ea sed earum ratione! Molestias voluptate praesentium iste maiores. Accusamus vitae voluptatibus porro, optio maiores ea sed illum fugit cupiditate exercitationem veniam fuga sequi dolorum at! Eum.
+            Omnis autem nam aut animi tenetur corporis laudantium quibusdam! Omnis voluptatem necessitatibus autem magni accusantium a quaerat atque voluptas perferendis nihil ipsum recusandae vero aliquam error, nulla cupiditate, assumenda deserunt?
+            Perspiciatis nihil recusandae explicabo facilis eaque sit itaque magni neque sequi deserunt, repudiandae, id alias ea voluptate dicta unde est incidunt natus eum repellat! Placeat dicta aliquid aperiam veniam perferendis!
+            Nemo adipisci numquam blanditiis molestias harum quisquam maiores ea facilis omnis ab soluta ullam quidem, debitis accusamus commodi tempore eaque unde dignissimos? Sequi distinctio ex, modi voluptates facilis laborum eligendi?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid in accusantium quibusdam voluptates adipisci. At, sint doloremque praesentium earum consequuntur est odit, voluptates vitae reprehenderit cum provident natus similique ipsam.
+            Odit, odio beatae similique facilis dolor itaque aperiam? Fuga itaque dolorum fugit doloremque sapiente asperiores eius fugiat, cum facilis reprehenderit beatae voluptatibus voluptates necessitatibus non ducimus reiciendis laudantium? In, ratione.
+            Necessitatibus cumque, quidem deserunt quasi quisquam ad enim id autem minima qui minus molestiae nobis ex fugit suscipit! Accusantium, adipisci amet iste eveniet veritatis beatae doloribus pariatur non id cum.</p>
+
+            <!--hr tag for better reading and style-->
+            <hr>
+        </div>
+
+        <!--stacked upnon the previous grid-->
+        <div class="col-sm-12">
+            <h3 class="text-center" id="beef">Beef</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repellendus fugit. Facilis, quasi omnis blanditiis aut provident ducimus odio doloribus repudiandae facere recusandae neque commodi earum suscipit aliquid quos error.
+            Officia consequuntur, amet ea sed earum ratione! Molestias voluptate praesentium iste maiores. Accusamus vitae voluptatibus porro, optio maiores ea sed illum fugit cupiditate exercitationem veniam fuga sequi dolorum at! Eum.
+            Omnis autem nam aut animi tenetur corporis laudantium quibusdam! Omnis voluptatem necessitatibus autem magni accusantium a quaerat atque voluptas perferendis nihil ipsum recusandae vero aliquam error, nulla cupiditate, assumenda deserunt?
+            Perspiciatis nihil recusandae explicabo facilis eaque sit itaque magni neque sequi deserunt, repudiandae, id alias ea voluptate dicta unde est incidunt natus eum repellat! Placeat dicta aliquid aperiam veniam perferendis!
+            Nemo adipisci numquam blanditiis molestias harum quisquam maiores ea facilis omnis ab soluta ullam quidem, debitis accusamus commodi tempore eaque unde dignissimos? Sequi distinctio ex, modi voluptates facilis laborum eligendi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta, quidem rerum rem voluptatem neque error laborum, repellendus velit eveniet ex deleniti sequi, deserunt excepturi perferendis pariatur aspernatur quos perspiciatis fugit.
+            Delectus quis quam animi veniam assumenda ut rem, officiis ab iure amet cum qui architecto soluta aut. Est reiciendis tempore odit magnam labore exercitationem nulla, dolor doloribus molestias, at eum?
+            Ipsum ipsam quis at sapiente explicabo officia id aut quasi officiis magni debitis, nesciunt dolor obcaecati quas ad adipisci nam optio inventore nobis error. Consectetur soluta dicta distinctio corporis blanditiis!
+            Libero consequuntur voluptate dolor eum quas repellendus, quasi illo. Eveniet itaque maxime sit quidem distinctio, quod perspiciatis cumque minus temporibus officiis accusantium eius asperiores explicabo quaerat perferendis atque ipsa molestiae.</p>
+            <hr>
+        </div>
+        <!--stacked upon the previous grid-->
+        <div class="col-sm-12">
+            <h3 class="text-center" id="shushi">Shushi</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, repellendus fugit. Facilis, quasi omnis blanditiis aut provident ducimus odio doloribus repudiandae facere recusandae neque commodi earum suscipit aliquid quos error.
+            Officia consequuntur, amet ea sed earum ratione! Molestias voluptate praesentium iste maiores. Accusamus vitae voluptatibus porro, optio maiores ea sed illum fugit cupiditate exercitationem veniam fuga sequi dolorum at! Eum.
+            Omnis autem nam aut animi tenetur corporis laudantium quibusdam! Omnis voluptatem necessitatibus autem magni accusantium a quaerat atque voluptas perferendis nihil ipsum recusandae vero aliquam error, nulla cupiditate, assumenda deserunt?
+            Perspiciatis nihil recusandae explicabo facilis eaque sit itaque magni neque sequi deserunt, repudiandae, id alias ea voluptate dicta unde est incidunt natus eum repellat! Placeat dicta aliquid aperiam veniam perferendis!
+            Nemo adipisci numquam blanditiis molestias harum quisquam maiores ea facilis omnis ab soluta ullam quidem, debitis accusamus commodi tempore eaque unde dignissimos? Sequi distinctio ex, modi voluptates facilis laborum eligendi?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum suscipit in officia ratione ullam voluptatibus error excepturi minima. Mollitia vel quaerat fugit maiores cum dolorum eum corrupti sapiente adipisci? Aspernatur!
+        Nobis totam natus molestias laudantium commodi repellat consequatur repudiandae corporis labore, rerum ipsum sit, odit, temporibus culpa non veritatis quas minus modi eveniet. Possimus hic eveniet, illum saepe ea quibusdam.
+        Atque, minus. Laboriosam quis itaque, a voluptates neque et, quod quaerat, nemo dicta vitae nostrum. Dolores, nesciunt error! Eveniet nihil in reprehenderit repellat consectetur sint sapiente libero beatae, quam rem.
+        Rerum debitis dolores animi voluptate harum laborum quibusdam temporibus sapiente necessitatibus blanditiis molestias, nostrum magni dolor, dignissimos vel laboriosam veniam corrupti magnam incidunt? Beatae sunt dolores consectetur fugit, in accusamus.
+        Consequatur modi nostrum necessitatibus eum earum, assumenda repellendus quisquam doloribus commodi nihil quidem ipsum magnam doloremque quibusdam consectetur tempora est similique neque repudiandae aperiam voluptatum ab facilis aut quaerat. Adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vel exercitationem id? Nihil assumenda itaque, asperiores, excepturi voluptatibus, ad esse sapiente atque magni consectetur neque aperiam odio consequuntur maiores iusto.
+        Quisquam corrupti eos aliquid. Porro iste ad veritatis. Fuga explicabo ducimus rerum assumenda nihil in a. Est, eveniet vero nobis odit maiores numquam placeat veniam nesciunt! Fugit maxime a delectus!
+        Sequi beatae ex corrupti esse exercitationem cupiditate animi, atque dolores. Aut architecto eveniet ipsum est, beatae, amet in, rem sapiente dolor excepturi quaerat autem accusamus libero quae a aliquam animi.
+        Voluptas commodi vitae, quae sed minus delectus ab accusantium enim odio consequatur eius eaque eligendi eum libero cum. Cupiditate neque dicta sint optio corrupti unde autem placeat quos! Aut, laboriosam.</p>
+            <hr>
+        </div>
+
+
+
+
+      </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
